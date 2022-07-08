@@ -1,0 +1,670 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <title>chu-tich-ho-chi-minh</title>
+    <meta http-equiv="Content-Type" content="text/shtml; charset=utf-8" />
+    <link type="text/css" href="css/ho-chi-minh.css" rel="stylesheet" media="screen" />
+    <link rel="icon" href="images/icon_24h.ico" type="image/png" />
+    <link href="/fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/bao24h-jquery.js"></script>
+
+</head>
+
+<body>
+    <div class="m-warpper">
+        <div class="scroll-top">
+            <a><img src="images/arrowPageUp.png" /></a>
+        </div>
+        <!--end-scroll-top-->
+        <div class="grid-container4">
+            <div class="header">
+                <div class=" header-top">
+                    <img src="images/quang-cao-truc-tuyen-24h-1418338469.jpg">
+                    <!--img-logo24h-->
+                    <form method="GET">
+                        <input name="q" value="" placeholder="Nhập tin tức cần tìm ..." />
+                        <button>Tìm kiếm</button>
+                    </form>
+                    <!--end-tìm-kiếm-->
+                    <a href="#" id="btn-open">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <!--end-icon-user-->
+                    <div id="id01" class="warpper-form">
+                        <form class="modal-content animate" method="post">
+                            <div class="style-login">
+                                <span id="btn-close" class="close" title="Close Modal">&times;</span>
+                                <h1>Đăng nhập nhanh</h1>
+                                <a href="#" class="fb btn">
+                                    <i class="fab fa-facebook"></i> Login with Facebook
+                                </a>
+                                <a href="#" class="twitter btn">
+                                    <i class="fab fa-twitter"></i> Login with Twitter
+                                </a>
+                                <a href="#" class="google btn">
+                                    <i class="fab fa-google"></i> Login with Google
+                                </a>
+                            </div>
+                            <div class="container">
+                                <h1>Đăng nhập </h1>
+                                <input type="text" placeholder="Tên đăng nhập" name="uname" required>
+                                <input type="password" placeholder="Mật khẩu" name="psw" required>
+                                <button type="submit" class="btn-login">Đăng nhập</button>
+                                <button type="button" id="btn-cance" class="cancelbtn">Thoát</button>
+                                <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                        </form>
+                    </div>
+                    <!--end-warpper-form-->
+                    <a href="#" class="mobile-download">
+                        <i class="fas fa-mobile-alt"></i>
+                    </a>
+                    <!--end-icon-moblie-->
+                </div>
+                <!--end-header-top-->
+                <div class="tap header-botoom">
+                    <ul class="menu-bao">
+                        <li class=" trang-chu ">
+                            <a href="./bao24h.html">
+                                <span class="icon-menu"><i class="fas fa-home"></i></span>
+                                <span class="tit">TRANG CHỦ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-newspaper"></i></span>
+                                <span class="tit">THỜI SỰ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-menu"><i class="far fa-chart-bar"></i></span>
+                                <span class="tit">KINH DOANH</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="topic-soccer.html">
+                                <span class="icon-menu"><i class="fas fa-futbol"></i></span>
+                                <span class="tit">BÓNG ĐÁ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-shopping-cart"></i></span>
+                                <span class="tit">THỊ TRƯỜNG</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-heartbeat"></i></span>
+                                <span class="tit">SỨC KHỎE</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-mobile-alt"></i></span>
+                                <span class="tit">HI-TECH</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-music"></i></span>
+                                <span class="tit">SHOWBIZ</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-globe-asia"></i></span>
+                                <span class="tit">THẾ GIỚI</span>
+                            </a>
+                        </li>
+                        <li class=" media-menu">
+                            <a href="#">
+                                <span class="icon-menu"><i class="fas fa-map-marked-alt"></i></span>
+                                <span class="tit">DU LỊCH</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end-menu-->
+                    <div class="dropdown">
+                        <div class="icon-soc">
+                            <a href="#">
+                                <i class="fas fa-align-justify icon-danh-muc"></i>
+                            </a>
+                        </div>
+                        <div class="danh-muc">
+                            <a href="#">NEWS</a>
+                            <a href="#">HOT</a>
+                            <a href="#">DU LỊCH</a>
+                            <a href="#">FILM</a>
+                            <a href="#">THỜI TRANG</a>
+                            <a href="#">ÂM NHẠC</a>
+                            <a href="#">SPORTS</a>
+                            <a href="#">ẨM THỰC</a>
+                            <a href="#">LỄ HỘI</a>
+                            <a href="#">CÔNG NGHỆ</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end-header-bottom-->
+            </div>
+            <!--end-header-->
+            <div class="noi-dung">
+                <div class="name-title">
+                    <ul>
+                        <li>
+                            <a href="ho-chi-minh.html">CHỦ TỊCH HỒ CHÍ MINH</a>
+                        </li>
+                        <li>
+                            <i class="far fa-star"></i>
+                        </li>
+                    </ul>
+
+                </div>
+                <ul class="content-bottom">
+                    <li>
+                        <a href="#">
+                            <img src="images/img1 hcm.jpg">
+                            <h4>Xuân về nhớ thơ chúc Tết của Bác Hồ</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/mattran.png">
+                            <h5>11/4/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img2 hcm.jpg">
+                            <h4>Tư tưởng Hồ Chí Minh về xây dựng đất nước hùng cường</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/bien phong.png">
+                            <h5>1/3/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img3 hcm.jpg">
+                            <h4>Học tập tư tưởng lấy dân làm gốc của Hồ Chí Minh</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/tuyengiao.png">
+                            <h5>16/3/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img4 hcm.jpg">
+                            <h4> Chủ tịch Hồ Chí Minh: Đoàn kết là sức mạnh của Đảng </h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/vietnam+.png">
+                            <h5>26/4/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img5 hcm.jpg">
+                            <h4>Xây dựng Đảng trong sạch, vững mạnh theo tư tưởng Hồ Chí Minh</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/vietnam+.png">
+                            <h5>8/3/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img6 hcm.webp">
+                            <h4>Hồ Chí Minh với khát vọng Việt Nam </h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/tuyengiao.png">
+                            <h5>9/1/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img7 hcm.webp">
+                            <h4>Thư Bác Hồ gửi các học sinh năm 1945 </h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/vietnam.png">
+                            <h5>16/4/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img8 hcm.webp">
+                            <h4>Vận dụng Tư tưởng Hồ Chí Minh về phong trào thi đua trong giai đoạn cách mạng hiện nay
+                            </h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/mattran.png">
+                            <h5>5/4/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img9 hcm.webp">
+                            <h4>Giá trị tư tưởng Hồ Chí Minh về xây dựng và thực hành đời sống mới trong quân đội </h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/baohatinh.png">
+                            <h5>26/1/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img11 hcm.webp">
+                            <h4>Hồ Chí Minh - tấm gương thi đua yêu nước trong sáng, mẫu mực </h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/tapchicongsan.png">
+                            <h5>6/3/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img12 hcm.webp">
+                            <h4>Lòng khâm phục của Chủ tịch Fidel Castro đối với Bác Hồ</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/thoidai.png">
+                            <h5>1/2/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img10 hcm.webp">
+                            <h4>Vận dụng Tư tưởng Hồ Chí Minh về phong trào thi đua trong giai đoạn cách mạng hiện nay
+                            </h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/vanhienvn.png">
+                            <h5>30/3/2021</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img13 hcm.webp">
+                            <h4>Trong bối cảnh cuộc cách mạng công nghiệp lần thứ tư và hội nhập quốc tế</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/suckhoedoisong.png">
+                            <h5>16/9/2020</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img14 hcm.webp">
+                            <h4>Từ quan điểm của Chủ tịch Hồ Chí Minh về nhà giáo đến việc nâng cao chất lượng đội ngũ
+                                giảng viên ở nước ta hiện nay</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/tuyengiao.png">
+                            <h5>11/6/2020</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img15 hcm.webp">
+                            <h4>Từ bình dân học vụ đến xã hội học tập: Tầm nhìn của Chủ tịch Hồ Chí Minh</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/congly.png">
+                            <h5>13/9/2020</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img16 hcm.webp">
+                            <h4>Sửa đổi lối làm việc để Đảng mạnh khỏe, chắc chắn</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/vietnam.png">
+                            <h5>6/3/2020</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img17 hcm.webp">
+                            <h4>Văn hóa hòa bình Hồ Chí Minh và ý nghĩa thời đại
+                            </h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/toquoc.png">
+                            <h5>18/11/2020</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img18 hcm.webp">
+                            <h4>Góp phần nâng cao hiệu quả công tác tuyên truyền giáo dục lý tưởng cách mạng, đạo đức,
+                                lối sống cho thế hệ trẻ theo tư tưởng Hồ Chí Minh</h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/mattran.png">
+                            <h5>4/7/2020</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img19 hcm.webp">
+                            <h4>Chủ tịch Hồ Chí Minh đến quan điểm của Đảng ta về công tác kiểm soát quyền lực cán bộ
+                            </h4>
+                        </a>
+                        <div class="logo-story1">
+                            <img src="images/tuyengiao.png">
+                            <h5>6/9/2020</h5>
+                        </div>
+                    </li>
+                </ul>
+                <!--end content-bottom-->
+            </div>
+            <!--end noi-dung-->
+            <div class="topic1">
+                <div class="title topic-title ">
+                    <h1>NÓNG 24H</h1>
+                </div>
+                <ul class="noidung-topic1">
+                    <!--  bao-top-new -->
+                    <li>
+                        <a
+                            href="https://suckhoedoisong.vn/sang-12-4-ha-noi-va-thai-nguyen-co-them-3-ca-mac-covid-19-n189813.html">
+                            <img src="images/img1-topic1.webp" />
+                            <h4>Sáng 12/4: Hà Nội và Thái Nguyên có thêm 3 ca mắc COVID-19</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/suckhoedoisong.png">
+                            <h5>2 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.doisongphapluat.com/phap-luat/tinh-huong-phap-luat/chuyen-sang-cccd-gan-chip-can-cap-nhat-sua-doi-nhung-loai-giay-to-gi-a361981.html">
+                            <img src="images/img2-topic1.webp" />
+                            <h4>Chuyển sang CCCD gắn chíp cần cập nhật, sửa đổi những loại giấy tờ gì?</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/phapluat.png">
+                            <h5>1 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://baomoi.com/13-hanh-vi-ve-cu-tru-bi-nghiem-cam-tu-1-7/r/28924441.epi#the-thao|mostread_box|index1">
+                            <img src="images/img3-topic1.webp" />
+                            <h4>13 hành vi về cư trú bị nghiêm cấm từ 1/7</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/vov.png">
+                            <h5>6 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://vi.tintuctonghop24.com/cau-be-14-tuoi-di-lam-cccd-dung-sinh-nhat-cac-chu-cong-an-mua-banh-ve-lam-sinh-nhat-ba-con-vo-tay/">
+                            <img src="images/img4-topic1.webp">
+                            <h4>Cậu bé đi làm căn cước công dân và cái kết bất ngờ</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/vietnam.png">
+                            <h5>9 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/img5-topic1.webp" />
+                            <h4>Chiều 11/4: Có 1 ca mắc COVID-19 ở Kiên Giang</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/tintuc.png">
+                            <h5>15 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://thuonghieucongluan.com.vn/who-canh-bao-campuchia-dang-dung-ben-bo-vuc-tham-kich-covid-19-a131749.html">
+                            <img src="images/img6-topic1.webp" />
+                            <h4>WHO cảnh báo Campuchia đang đứng bên bờ vực thảm kịch Covid-19</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/zing.png">
+                            <h5>20 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://vietnamnet.vn/vn/kinh-doanh/dau-tu/ong-chu-khach-san-giau-kho-bau-duoi-day-ao-moi-nam-mo-len-thu-34-ty-726414.html">
+                            <img src="images/img7-topic1.webp" />
+                            <h4>‘Kho báu’ dưới đáy ao của ông chủ khách sạn, mỗi năm mò lên thu 34 tỷ</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/vietnam.png">
+                            <h5>1 giờ</h5>
+                        </div>
+                    </li>
+                </ul><!-- end nong24h-->
+            </div>
+            <!--end topic1-->
+            <div class="topic2">
+                <div class="title2  ">
+                    <h1>VIDEO</h1>
+                </div>
+                <ul class="noidung-topic2">
+                    <li>
+                        <a href="https://zingnews.vn/4-meo-giu-dong-ho-va-trang-suc-luon-moi-post1203676.html">
+                            <img src="images/img1-topic3.webp">
+                            <h4>Toàn cảnh trận thắng 4-0 của CLB Hà Nội trước Than Quảng Ninh</h4>
+                        </a>
+                        <div class="logo-story3">
+                            <img src="images/zing.png">
+                            <h5>6 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://zingnews.vn/bau-duc-phe-phan-chu-tich-clb-than-quang-ninh-post1203684.html">
+                            <img src="images/img2-topic3.webp">
+                            <h4>Bầu Đức phê phán chủ tịch CLB Than Quảng Ninh</h4>
+                        </a>
+                        <div class="logo-story3">
+                            <img src="images/zing.png">
+                            <h5>55 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://zingnews.vn/video-david-beckham-la-dai-su-thuong-hieu-toan-cau-cua-maserati-post1203682.html">
+                            <img src="images/img3-topic3.webp">
+                            <h4>David Beckham là đại sứ thương hiệu toàn cầu của Maserati </h4>
+                        </a>
+                        <div class="logo-story3">
+                            <img src="images/zing.png">
+                            <h5>45 phút</h5>
+                        </div>
+                    </li>
+                </ul>
+                <!--end Video-->
+            </div>
+            <!--end topic2-->
+            <div class="topic3">
+                <div class="title topic-title ">
+                    <h1>GÓC NHÌN & PHÂN TÍCH</h1>
+                </div>
+                <ul class="noidung-topic1">
+                    <li>
+                        <a
+                            href="https://vov.vn/xa-hoi/tin-24h/dung-de-thu-cung-nha-minh-thanh-noi-kinh-hoang-cho-nha-khac-849554.vov">
+                            <img src="images/img1-topic2.webp" />
+                            <h4>Đừng để thú cưng nhà mình thành nỗi kinh hoàng cho nhà khác</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/vov.png">
+                            <h5>1 giờ</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://baotintuc.vn/goc-nhin/qua-dang-cua-hoa-uat-kim-huong-den-20210411221722340.htm">
+                            <img src="images/img2-topic2.webp" />
+                            <h4>‘Quả đắng’ của ‘hoa uất kim hương đen’</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/tintuc.png">
+                            <h5>55 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://vietnamnet.vn/vn/tuanvietnam/tieudiem/cach-singapore-bit-lo-hong-ky-nang-cho-so-dong-nhan-luc-726945.html">
+                            <img src="images/img3-topic2.webp" />
+                            <h4>Cách Singapore bịt lỗ hổng kỹ năng cho số đông nhân lực</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/vietnam.png">
+                            <h5>45 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="http://antg.cand.com.vn/su-kien-binh-luan-antg/bo-tu-kim-cuong-va-chien-dich-pho-truong-thanh-the-636719/">
+                            <img src="images/img4-topic2.webp">
+                            <h4>Bộ Tứ Kim cương và chiến dịch phô trương thanh thế</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/anninhthegioi.png">
+                            <h5>59 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://tienphong.vn/thuoc-dac-tri-cuong-dat-post1327058.tpo">
+                            <img src="images/img5-topic2.webp" />
+                            <h4>Thuốc 'đặc trị'... cuồng đất</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/tienphong.png">
+                            <h5>1 giờ</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://vietnamnet.vn/vn/tuanvietnam/tieudiem/hanh-trinh-singapore-chuyen-doi-so-xay-dung-quoc-gia-thong-minh-726538.html">
+                            <img src="images/img6-topic2.webp" />
+                            <h4>Hành trình Singapore chuyển đổi số xây dựng quốc gia thông minh</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/vietnam.png">
+                            <h5>6 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://baoquocte.vn/cang-thang-nga-ukraine-kich-ban-cu-ac-mong-xua-141641.html">
+                            <img src="images/img7-topic2.webp" />
+                            <h4>Căng thẳng Nga-Ukraine: Kịch bản cũ, ác mộng xưa</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/toquoc.png">
+                            <h5>30 phút</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a
+                            href="https://zingnews.vn/chuyen-gia-quoc-te-nen-thuc-day-cac-tap-doan-tu-nhan-lon-post1202003.html">
+                            <img src="images/img8-topic2.webp" />
+                            <h4>CHUYÊN GIA QUỐC TẾ: NÊN THÚC ĐẨY CÁC TẬP ĐOÀN TƯ NHÂN LỚN</h4>
+                        </a>
+                        <div class="logo-story2">
+                            <img src="images/zing.png">
+                            <h5>40 phút</h5>
+                        </div>
+                    </li>
+                </ul>
+                <!--end GÓC NHÌN & PHÂN TÍCH-->
+            </div>
+            <!--end topic3-->
+            <div class="footer">
+                <div class="footer-baner1">
+                    <ul>
+                        <li class="chuyen-muc">
+                            <h3>Tin tức</h3>
+                            <ul>
+                                <li><a href="#">Tin Hà Nội</a></li>
+                                <li><a href="#"> Tin TP Hồ Chí Minh</a></li>
+                            </ul>
+                        </li>
+                        <li class="chuyen-muc">
+                            <h3>Bóng đá</h3>
+                            <ul>
+                                <li><a href="#">Video</a></li>
+                                <li><a href="#">Ngoại hạng anh</a></li>
+                            </ul>
+                        </li>
+                        <li class="chuyen-muc">
+                            <h3>Thời trang</h3>
+                            <ul>
+                                <li><a href="#">Bí quyết mặc đẹp</a></li>
+                                <li><a href="#">Người mẫu nữ</a></li>
+                            </ul>
+                        </li>
+                        <li class="chuyen-muc ">
+                            <h3>Pháp luật </h3>
+                            <ul>
+                                <li><a href="#">vụ án nổi tiếng </a></li>
+                                <li><a href="#">trọng án</a></li>
+                            </ul>
+                        </li>
+                        <li class="chuyen-muc   media-footer">
+                            <h3>Hi-tech</h3>
+                            <ul>
+                                <li><a href="#">Tin tức công nghệ</a> </li>
+
+                            </ul>
+                        </li>
+                        <li class="chuyen-muc  media-footer">
+                            <h3>Kinh doanh</h3>
+                            <ul>
+                                <li><a href="#">khởi nghiệp</a> </li>
+                                <li><a href="#">Tỉ giá</a></li>
+                            </ul>
+                        </li>
+                        <li class="chuyen-muc  media-footer">
+                            <h3>Sức khỏe</h3>
+                            <ul>
+                                <li><a href="#">Bệnh đàn ông<a> </li>
+                                <li><a href="#">Bệnh phụ nữ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--end-footer-baner1-->
+                <div class="footer-baner2 ">
+                    <ul>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Góp ý</a></li>
+                        <li><a href="#">Đầu trang</a></li>
+                        <li class="last"><a href="#">Liên hệ quảng cáo</a></li>
+                    </ul>
+                </div>
+                <!--end-footer-baner2-->
+                <div class="footer-baner3">
+                    <P>Cơ quan chủ quản: Công ty Cổ phần Quảng cáo Trực tuyến 24H Trụ sở: Tầng 12, Tòa nhà Geleximco, 36
+                        Hoàng Cầu, Phường Ô Chợ Dừa, Quận Đống Đa, TP Hà Nội. Tel: (84-24) 73 00 24 24 hoặc (84-24) 3512
+                        1806 - Fax: (84-24) 3512 1804. Chi nhánh: Tầng 7, Tòa nhà Việt Úc, 402 Nguyễn Thị Minh Khai,
+                        Phường 5, Quận 3, TP. Hồ Chí Minh. Tel: (84-28) 7300 2424 / Giấy phép số 332/GP – TT ĐT ngày cấp
+                        22/01/2018 SỞ THÔNG TIN VÀ TRUYỀN THÔNG HÀ NỘI. Chịu trách nhiệm xuất bản: Phan Minh Tâm.
+                        HOTLINE: 0965 08 24 24</P>
+                    <a href="#"><img src="images/dmca_protected_sml_120m.png" alt="#"></a>
+                </div>
+                <!--end-footer-baner3-->
+            </div>
+            <!--end footer-->
+        </div>
+        <!--end-grid-container4-->
+    </div>
+    <!--end-warpper-->
+
+</body>
